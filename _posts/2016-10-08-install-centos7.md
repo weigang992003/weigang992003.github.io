@@ -17,7 +17,9 @@ categories: learning
 ## The following operation all did in local terminal
 
 >> ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.31.101
+
 >> vi /etc/locale.conf
+
 >> add new line: LC_ALL="en_US.UTF-8"
 
 ## ntpdate
