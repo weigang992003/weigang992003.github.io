@@ -5,7 +5,6 @@ date:   2016-10-27 12:49:00
 categories: tech 
 ---
 
-# NERDTRee shotcuts
 
 ## 切换工作台和目录
 
