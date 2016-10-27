@@ -6,7 +6,9 @@ categories: tech
 ---
 
 
-## 切换工作台和目录
+### 切换工作台和目录
+> http://yang3wei.github.io/blog/2013/01/29/nerdtree-kuai-jie-jian-ji-lu/
+
 ```sh
 ctrl + w + h    光标 focus 左侧树形目录
 ctrl + w + l    光标 focus 右侧文件显示窗口
@@ -14,8 +16,8 @@ ctrl + w + w    光标自动在左右侧窗口切换
 ctrl + w + r    移动当前窗口的布局位置
 ```
 
->o
->在已有窗口中打开文件、目录或书签，并跳到该窗口
+```sh
+o       在已有窗口中打开文件、目录或书签，并跳到该窗口
 go      在已有窗口
 中打开文件、目录或书签，但不跳到该窗口
 t       在新 Tab 中打开选中文件/书签，并跳到新 Tab
@@ -63,5 +65,23 @@ B       切换是否显示书签
 
 q       关闭 NerdTree 窗口
 ?       切换是否显示 Quick Help
+```
+### 切换标签页
 
+```sh
+:tabnew [++opt选项] ［＋cmd］ 文件      建立对指定文件新的tab
+:tabc   关闭当前的 tab
+:tabo   关闭所有其他的 tab
+:tabs   查看所有打开的 tab
+:tabp   前一个 tab
+:tabn   后一个 tab
 
+标准模式下：
+gT      前一个 tab
+gt      后一个 tab
+
+MacVim 还可以借助快捷键来完成 tab 的关闭、切换
+cmd+w   关闭当前的 tab
+cmd+{   前一个 tab
+cmd+}   后一个 tab
+```
