@@ -5,7 +5,8 @@ date:   2016-10-27 14:50:00
 categories: tech 
 ---
 
-** What are heap tables? **
+**What are heap tables?**
+
 > HEAP tables are present in memory and they are used for high speed
 > storage on temporary basis.
 
