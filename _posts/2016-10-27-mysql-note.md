@@ -15,7 +15,7 @@ categories: tech
 - AUTO_INVREMENT is not supported by HEAP tables
 - Indexes should be not null
 
-** The default port for Mysql server is 3306 **
+**The default port for Mysql server is 3306**
 
 
 
