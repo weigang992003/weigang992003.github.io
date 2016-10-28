@@ -5,6 +5,7 @@ date:   2016-10-27 16:11:00
 categories: climbing 
 ---
 > http://daily.zhihu.com/story/4668081
+
 ### 室内攀岩
 国内大多接触攀岩是从室内岩馆
 ### 运动攀登sport climbing
