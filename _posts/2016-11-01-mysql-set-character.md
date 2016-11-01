@@ -8,7 +8,7 @@ categories: tech
 **To see the values of the character set and collation system variables
 that apply to your connection, use these statements:**
 
-```sh
+```mysql
 show variables like 'character_set%';
 
 show varialbes like 'collation%';
@@ -29,7 +29,7 @@ upon commend results like this:
 | character_sets_dir       | /usr/share/mysql/charsets/ |
 +--------------------------+----------------------------+
 ```
-```sh
+```mysql
 +----------------------+-------------------+
 | Variable_name        | Value             |
 +----------------------+-------------------+
