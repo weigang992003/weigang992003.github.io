@@ -29,3 +29,12 @@ upon commend results like this:
 | character_sets_dir       | /usr/share/mysql/charsets/ |
 +--------------------------+----------------------------+
 ```
+```sh
++----------------------+-------------------+
+| Variable_name        | Value             |
++----------------------+-------------------+
+| collation_connection | latin1_swedish_ci |
+| collation_database   | utf8_general_ci   |
+| collation_server     | latin1_swedish_ci |
++----------------------+-------------------+
+```
