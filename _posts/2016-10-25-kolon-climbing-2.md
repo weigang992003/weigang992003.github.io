@@ -2,7 +2,7 @@
 layout: post
 title:  "Kolon 攀岩第二周"
 date:   2016-10-25 20:13:00
-categories: learning
+categories: climbing
 ---
 
 # Kolon 第二周
