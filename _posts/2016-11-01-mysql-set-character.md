@@ -38,3 +38,13 @@ upon commend results like this:
 | collation_server     | latin1_swedish_ci |
 +----------------------+-------------------+
 ```
+
+**use set command**
+
+```mysql
+set character_set_client=utf8;
+set character_set_results=utf8;
+.
+.
+.
+```
