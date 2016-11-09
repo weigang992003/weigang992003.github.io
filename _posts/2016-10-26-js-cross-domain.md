@@ -1,16 +1,54 @@
 ---
 layout: post
-title:  "当你的才华还撑不起你的野心的时候-莫言"
+title:  "js cross domain"
 date:   2016-09-30 16:11:00
 categories: literature
 ---
+js in client brower
+
+```javascrpt
+var url = "http://server.com";
+var getAuthData = function (user, password) {
+var formdata = new FormData();
+  formdata.append('user', user);
+  formdata.append('password', password);
+  return formdata;
+};
+var peaboxLogin = function (user,password) {
+  var _login = function () {
+    var authData = getAuthData(user, password);
+    $.ajax({
+      url: url,
+      type: "POST",
+      contentType: false,
+      processData: false,
+      crossDomain: true,
+      data: authData,
+      xhrFields: {
+       withCredentials: true
+      },
+      success: function (response) {
+        console.log(response);
+      },
+      error: function (err, status, code) {
+        if (err.status == 0) {
+
+        } else {
+
+        }
+      }
+    });
+  };
+  _login();
+};
 
 
-> 当你的才华还撑不起你的野心的时候，
-你就应该静下心来学习；
+```
 
-> 当你的能力还驾驭不了你的目标时，
-就应该沉下心来，历练。
+Server side should allow origin
 
-> 梦想不是浮躁，而是沉淀和积累，只有拼出来的美丽，没有等出来的辉煌。
-机会永远是留给最渴望的那个人。
+```php
+header("Access-Control-Allow-Origin: http://client.com");
+
+header("Access-Control-Allow-Credentials: true");
+```
