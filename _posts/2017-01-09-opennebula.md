@@ -22,4 +22,4 @@ system center
 
 Citris
 
-
+&& d.backing.respond_to?(:fileName)
