@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "docker notes"
-date:   2016-12-02 16:03:00
+title:  "opennebula keywords"
+date:   2017-01-09 16:03:00
 categories: tech
 ---
 infrastructure
@@ -22,4 +22,3 @@ system center
 
 Citris
 
-&& d.backing.respond_to?(:fileName)
